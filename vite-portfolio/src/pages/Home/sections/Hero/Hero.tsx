@@ -13,8 +13,8 @@ const StyledImg = styled("img")(({ theme }) => ({
   border: `2px solid ${theme.palette.primary.contrastText}`,
   borderRadius: "50%",
   display: "block",
-  margin: "0 auto",
-  position: "relative",
+  margin: "60px auto 0", 
+  
 }));
 
 const StyledHero = styled("div")(({ theme }) => ({

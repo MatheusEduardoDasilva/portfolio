@@ -47,7 +47,7 @@ const About: React.FC = () => {
       </Box>
 
       <Box pb={1}>
-        <Typography>My name is Matheus Eduardo da Silva, and I am based in Biguaçu, 
+        <Typography textAlign="center">My name is Matheus Eduardo da Silva, and I am based in Biguaçu, 
             Santa Catarina, Brazil. I am an IT professional with extensive experience 
             in technical support, maintenance of computers, printers, and mobile devices, 
             as well as system configuration and network management. Throughout my career,
