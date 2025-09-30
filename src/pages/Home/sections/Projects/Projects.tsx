@@ -1,7 +1,8 @@
 import { Box, Container, Typography, styled } from "@mui/material";
 import ProjectCard, { type ProjectCardProps } from "../../../../components/ProjectCard/ProjectCard";
 import AnimationComponent from "../../../../components/AnimationComponent/AnimationComponent";
-
+import Breve from "../../../../assets/images/Breve.png";
+import Portfolio from "../../../../assets/images/Portfolio.png";
 const ProjectsSection: React.FC = () => {
   const StyledExperience = styled("div")(({ theme }) => ({
     backgroundColor: theme.palette.primary.main,
@@ -11,7 +12,7 @@ const ProjectsSection: React.FC = () => {
     {
       title: "Site Portflio",
       subtitle: "2025",
-      srcImg: "/src/assets/images/Portfolio.png",
+      srcImg: Portfolio,
       description: "A personal portfolio showcasing my projects and skills in web development",
       technologies: "built with TypeScript, React, and Material UI.",
       websiteURL: "https://portfolio-silk-seven-61.vercel.app",
@@ -20,7 +21,7 @@ const ProjectsSection: React.FC = () => {
     {
       title: "Coming Soon",
       subtitle: "2025",
-      srcImg: "/src/assets/images/Breve.png",
+      srcImg: Breve,
       description: "Coming Soon",
       technologies: "Coming Soon",
       websiteURL: "Coming Soon",
