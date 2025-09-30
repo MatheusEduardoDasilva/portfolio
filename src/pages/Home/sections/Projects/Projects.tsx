@@ -10,7 +10,7 @@ const ProjectsSection: React.FC = () => {
 
   const projects: ProjectCardProps[] = [
     {
-      title: "Site Portflio",
+      title: "Site Portfolio",
       subtitle: "2025",
       srcImg: Portfolio,
       description: "A personal portfolio showcasing my projects and skills in web development",
