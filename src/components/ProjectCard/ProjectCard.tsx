@@ -46,17 +46,17 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
     return (
         <StyledCard>
-            <Typography variant="h5">
+            <Typography textAlign= "center" variant="h5">
                 {title}
             </Typography>
-            <Typography >
+            <Typography textAlign= "center">
                 {subtitle}
             </Typography>
             <StyledImg src={srcImg} />
-            <Typography>
+            <Typography textAlign= "center">
                 {description}
             </Typography>
-            <Typography fontWeight={600} pt={2}>
+            <Typography textAlign= "center" pt={2}>
                 {technologies}
             </Typography>
             <Box display="flex" pt={2} gap={1}>

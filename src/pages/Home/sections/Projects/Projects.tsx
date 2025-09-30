@@ -10,11 +10,11 @@ const ProjectsSection: React.FC = () => {
 
   const projects: ProjectCardProps[] = [
     {
-      title: "Site Portfolio",
+      title: "Web Developer Portfolio",
       subtitle: "2025",
       srcImg: Portfolio,
       description: "A personal portfolio showcasing my projects and skills in web development",
-      technologies: "built with TypeScript, React, and Material UI.",
+      technologies: "Built with TypeScript, React, and Material UI.",
       websiteURL: "https://portfolio-silk-seven-61.vercel.app",
       codeURL: "https://github.com/MatheusEduardoDasilva/portfolio",
     },
@@ -24,8 +24,8 @@ const ProjectsSection: React.FC = () => {
       srcImg: Breve,
       description: "Coming Soon",
       technologies: "Coming Soon",
-      websiteURL: "Coming Soon",
-      codeURL: "Coming Soon",
+      websiteURL:"https://portfolio-silk-seven-61.vercel.app" ,
+      codeURL: "https://portfolio-silk-seven-61.vercel.app",
     },
   
   ];
