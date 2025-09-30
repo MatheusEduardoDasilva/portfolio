@@ -18,7 +18,7 @@ const StyledButton: React.FC<StyledButtonProps> = ({ children, onClick }) => {
         borderRadius: "3px",
         padding: "5px 15px",
         width: "100%",
-        border: `1px solid  ${theme.palette.primary.contrastText}`,
+        border: `1px solid #555555`,
         color: theme.palette.primary.contrastText,
         cursor: "pointer",
         transition: "background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms",

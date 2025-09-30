@@ -1,7 +1,7 @@
 import { Box, Container, IconButton, Typography } from "@mui/material"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EmailIcon from '@mui/icons-material/Email';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const Footer: React.FC = () => {
 
@@ -16,8 +16,9 @@ const Footer: React.FC = () => {
                         <IconButton onClick={() => window.open("https://www.linkedin.com/in/matheus-eduardo-da-silva-516453198")}>
                             <LinkedInIcon />
                         </IconButton>
-                        <IconButton href="matheus_edusilva@hotmail.com" target="_blank">
-                            <EmailIcon />
+                        
+                        <IconButton onClick={() => window.open("https://wa.me/5548999015337")}>
+                            <WhatsAppIcon />
                         </IconButton>
                     </Box>
                     <Typography textAlign="center">

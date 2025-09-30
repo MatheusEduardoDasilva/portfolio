@@ -7,10 +7,10 @@ import EmailIcon from "@mui/icons-material/Email";
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import Open from "../../../../assets/pdfs/Open.pdf";
 
-const StyledImg = styled("img")(({ theme }) => ({
+const StyledImg = styled("img")(({ }) => ({
   width: "80%",
   maxWidth: 300,
-  border: `2px solid ${theme.palette.primary.contrastText}`,
+  border: `2px solid #44444`,
   borderRadius: "50%",
   display: "block",
   margin: "60px auto 0", 

@@ -35,7 +35,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
     const StyledCard = styled("div")(({ theme }) => ({
         borderRadius: "3px",
-        border: `0.5px solid  ${theme.palette.primary.contrastText}`,
+        border: "0.5px solid #555555", 
         backgroundColor: "transparent",
         color: theme.palette.primary.contrastText,
         padding: "20px",
@@ -61,7 +61,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             </Typography>
             <Box display="flex" pt={2} gap={1}>
                 <Box flex={1}>
-                    <StyledButton onClick={() => window.open(websiteURL)}>
+                    <StyledButton  onClick={() => window.open(websiteURL)}>
                     View Project
                     </StyledButton>
                 </Box>
