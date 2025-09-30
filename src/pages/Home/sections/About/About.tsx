@@ -31,7 +31,7 @@ const About: React.FC = () => {
           <StyledCard variant="outlined" sx={{ width: { xs: "90%", md: "200px" } }}>
             <WorkspacePremiumIcon />
             <Typography fontWeight={600}>Experience</Typography>
-            <Typography>1 Mouth </Typography>
+            <Typography>1 Month </Typography>
             <Typography>FullSteck Development</Typography>
           </StyledCard>
         </AnimationComponent>
