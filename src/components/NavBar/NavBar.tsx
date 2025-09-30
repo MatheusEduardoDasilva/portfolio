@@ -17,8 +17,9 @@ export const StyledNavLink = styled("a")(() => ({
 }));
 
 export const StyledMobileToolbar = styled(Toolbar)(({ theme }) => ({
-  [theme.breakpoints.up('xs')]: { display: "flex", justifyContent: "end" },
+  [theme.breakpoints.up('xs')]: { display: "flex", justifyContent: "start" },
   [theme.breakpoints.up('md')]: { display: "none" },
+  
 }));
 
 export const StyledDesktopToolbar = styled(Toolbar)(({ theme }) => ({
@@ -52,13 +53,15 @@ export default function Navbar({ darkMode, toggleDarkMode }: NavbarProps) {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="fixed" >
+        
         <StyledMobileToolbar>
+          <IconButton size="large" onClick={toggleDarkMode} color="inherit">
+            {darkMode ? <Brightness4Icon /> : <Brightness7Icon />}
+          </IconButton>
           <IconButton size="large" onClick={handleMenu} color="inherit">
             <MenuIcon />
           </IconButton>
-          <IconButton size="large" onClick={toggleDarkMode} color="inherit">
-            {darkMode ? <Brightness7Icon /> : <Brightness4Icon />}
-          </IconButton>
+          
           <IconButton size="large" onClick={toggleLanguage} color="inherit">
           </IconButton>
           <Menu
@@ -95,7 +98,7 @@ export default function Navbar({ darkMode, toggleDarkMode }: NavbarProps) {
             <StyledNavLink>Projects</StyledNavLink>
           </MenuItem>
           <IconButton size="large" onClick={toggleDarkMode} color="inherit">
-            {darkMode ? <Brightness7Icon /> : <Brightness4Icon />}
+            {darkMode ? <Brightness4Icon /> : <Brightness7Icon />}
           </IconButton>
           
         </StyledDesktopToolbar>

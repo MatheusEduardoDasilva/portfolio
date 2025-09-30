@@ -32,7 +32,7 @@ const About: React.FC = () => {
             <WorkspacePremiumIcon />
             <Typography fontWeight={600}>Experience</Typography>
             <Typography>1 Month </Typography>
-            <Typography>FullSteck Development</Typography>
+            <Typography>Full-Steck Development</Typography>
           </StyledCard>
         </AnimationComponent>
 
@@ -41,23 +41,19 @@ const About: React.FC = () => {
             <SchoolIcon />
             <Typography fontWeight={600}>Education</Typography>
             <Typography>Graduate Degree</Typography>
-            <Typography>Digital games</Typography>
+            <Typography>Digital Games</Typography>
           </StyledCard>
         </AnimationComponent>
       </Box>
 
       <Box pb={1}>
-        <Typography textAlign="center">My name is Matheus Eduardo da Silva, and I am based in Biguaçu, 
-            Santa Catarina, Brazil. I am an IT professional with extensive experience 
-            in technical support, maintenance of computers, printers, and mobile devices, 
-            as well as system configuration and network management. Throughout my career,
-            I have worked as an IT Assistant in multiple companies, including Goedert Group,
-            Gatte72, GRUPO REPECON, Moto Store Yamaha, and Dental Speed, where I gained hands-on 
-            experience with tools and systems such as Microsoft Office, OneDrive, SharePoint, 
-            Dealernet,Microwork, and IBS.Currently, I am studying software development and TypeScript,
-            aiming to enhance my programming skills and transition into roles in IT development, game design,
-            and quality assurance testing. I am passionate about technology, problem-solving, and continuous learning,
-            and I am eager to contribute to innovative projects in the IT and software development fields.
+        <Typography textAlign="center">My name is Matheus Eduardo da Silva, and I am based in Biguaçu, Santa Catarina, Brazil. 
+            I am an IT professional with extensive experience in technical support, including the maintenance of computers, printers, 
+            and mobile devices, as well as system configuration and network management.
+            Throughout my career, I have worked as an IT Assistant in multiple companies, including Goedert Group, Gatte72, GRUPO REPECON, 
+            Moto Store Yamaha, and Dental Speed, where I utilized tools and systems such as Microsoft Office, OneDrive, SharePoint, Dealernet, Microwork, and IBS.
+            Currently, I am focusing on software development and TypeScript to enhance my programming skills and pivot my career toward roles in IT development, game 
+            design, and quality assurance testing.
         </Typography>
       </Box>
 
