@@ -9,13 +9,13 @@ const ProjectsSection: React.FC = () => {
 
   const projects: ProjectCardProps[] = [
     {
-      title: "Coming Soon",
+      title: "Site Portflio",
       subtitle: "2025",
-      srcImg: "/src/assets/images/Breve.png",
-      description: "Coming Soon",
-      technologies: "Coming Soon",
-      websiteURL: "Coming Soon",
-      codeURL: "Coming Soon",
+      srcImg: "/src/assets/images/Portfolio.png",
+      description: "A personal portfolio showcasing my projects and skills in web development",
+      technologies: "built with TypeScript, React, and Material UI.",
+      websiteURL: "https://portfolio-silk-seven-61.vercel.app",
+      codeURL: "https://github.com/MatheusEduardoDasilva/portfolio",
     },
     {
       title: "Coming Soon",
@@ -47,7 +47,7 @@ const ProjectsSection: React.FC = () => {
           {projects.map((project, index) => (
             <Box
               key={index}
-              flex={{ xs: "1 1 100%", md: "1 1 48%" }} // responsivo: 100% mobile, 48% desktop
+              flex={{ xs: "1 1 100%", md: "1 1 48%" }} 
             >
               <AnimationComponent moveDirection={index % 2 === 0 ? "right" : "left"}>
                 <ProjectCard
