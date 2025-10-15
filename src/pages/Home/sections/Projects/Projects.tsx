@@ -3,6 +3,7 @@ import ProjectCard, { type ProjectCardProps } from "../../../../components/Proje
 import AnimationComponent from "../../../../components/AnimationComponent/AnimationComponent";
 import Breve from "../../../../assets/images/Breve.png";
 import Portfolio from "../../../../assets/images/Portfolio.png";
+import Audiobook from "../../../../assets/images/Audiobook.png";
 const ProjectsSection: React.FC = () => {
   const StyledExperience = styled("div")(({ theme }) => ({
     backgroundColor: theme.palette.primary.main,
@@ -19,13 +20,13 @@ const ProjectsSection: React.FC = () => {
       codeURL: "https://github.com/MatheusEduardoDasilva/portfolio",
     },
     {
-      title: "Coming Soon",
+      title: "Aduio-book",
       subtitle: "2025",
-      srcImg: Breve,
-      description: "Coming Soon",
-      technologies: "Coming Soon",
-      websiteURL:"https://portfolio-silk-seven-61.vercel.app" ,
-      codeURL: "https://portfolio-silk-seven-61.vercel.app",
+      srcImg: Audiobook,
+      description: "An audiobook of Dom Casmurro, the classic novel by Machado de Assis.",
+      technologies: "Built with HTML, CSS, and JavaScript",
+      websiteURL:"https://vercel.com/matheuseduardodasilvas-projects/audio-book" ,
+      codeURL: "github.com/MatheusEduardoDasilva/audio-book",
     },
   
   ];
