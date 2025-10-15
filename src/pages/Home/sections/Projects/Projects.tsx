@@ -24,7 +24,7 @@ const ProjectsSection: React.FC = () => {
       srcImg: Audiobook,
       description: "An audiobook of Dom Casmurro, the classic novel by Machado de Assis.",
       technologies: "Built with HTML, CSS, and JavaScript",
-      websiteURL:"https://vercel.com/matheuseduardodasilvas-projects/audio-book" ,
+      websiteURL:"https://audio-book-sigma.vercel.app" ,
       codeURL: "github.com/MatheusEduardoDasilva/audio-book",
     },
   
