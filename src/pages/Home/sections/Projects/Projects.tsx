@@ -1,7 +1,6 @@
 import { Box, Container, Typography, styled } from "@mui/material";
 import ProjectCard, { type ProjectCardProps } from "../../../../components/ProjectCard/ProjectCard";
 import AnimationComponent from "../../../../components/AnimationComponent/AnimationComponent";
-import Breve from "../../../../assets/images/Breve.png";
 import Portfolio from "../../../../assets/images/Portfolio.png";
 import Audiobook from "../../../../assets/images/Audiobook.png";
 const ProjectsSection: React.FC = () => {
