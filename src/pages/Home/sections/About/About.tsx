@@ -15,7 +15,7 @@ const About: React.FC = () => {
   }));
 
   const skillsSet = [
-     "Typescript", "React", "HTML", "CSS", "Material UI"
+     "Typescript", "React", "HTML", "CSS", "Material UI" ,"JavaScript","HTML"
   ];
 
   return (
